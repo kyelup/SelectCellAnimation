@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C0B2941582CA6100E9443A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0B2931582CA6100E9443A /* UIKit.framework */; };
+		27C0B2961582CA6100E9443A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0B2951582CA6100E9443A /* Foundation.framework */; };
+		27C0B2981582CA6100E9443A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0B2971582CA6100E9443A /* CoreGraphics.framework */; };
+		27C0B29E1582CA6100E9443A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C0B29C1582CA6100E9443A /* InfoPlist.strings */; };
+		27C0B2A01582CA6100E9443A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B29F1582CA6100E9443A /* main.m */; };
+		27C0B2A41582CA6100E9443A /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B2A31582CA6100E9443A /* KLAppDelegate.m */; };
+		27C0B2A71582CA6100E9443A /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B2A61582CA6100E9443A /* KLViewController.m */; };
+		27C0B2AA1582CA6100E9443A /* KLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C0B2A81582CA6100E9443A /* KLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27C0B28F1582CA6100E9443A /* CellSelectAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellSelectAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C0B2931582CA6100E9443A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27C0B2951582CA6100E9443A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27C0B2971582CA6100E9443A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27C0B29B1582CA6100E9443A /* CellSelectAnimation-Info.plist */ = {isa = PBXFileReference; path = "CellSelectAnimation-Info.plist"; sourceTree = "<group>"; };
+		27C0B29D1582CA6100E9443A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27C0B29F1582CA6100E9443A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27C0B2A11582CA6100E9443A /* CellSelectAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "CellSelectAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		27C0B2A21582CA6100E9443A /* KLAppDelegate.h */ = {isa = PBXFileReference; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		27C0B2A31582CA6100E9443A /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
+		27C0B2A51582CA6100E9443A /* KLViewController.h */ = {isa = PBXFileReference; path = KLViewController.h; sourceTree = "<group>"; };
+		27C0B2A61582CA6100E9443A /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		27C0B2A91582CA6100E9443A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C0B28C1582CA6100E9443A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C0B2941582CA6100E9443A /* UIKit.framework in Frameworks */,
+				27C0B2961582CA6100E9443A /* Foundation.framework in Frameworks */,
+				27C0B2981582CA6100E9443A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C0B2841582CA6100E9443A = {
+			isa = PBXGroup;
+			children = (
+				27C0B2991582CA6100E9443A /* CellSelectAnimation */,
+				27C0B2921582CA6100E9443A /* Frameworks */,
+				27C0B2901582CA6100E9443A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C0B2901582CA6100E9443A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C0B28F1582CA6100E9443A /* CellSelectAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C0B2921582CA6100E9443A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C0B2931582CA6100E9443A /* UIKit.framework */,
+				27C0B2951582CA6100E9443A /* Foundation.framework */,
+				27C0B2971582CA6100E9443A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C0B2991582CA6100E9443A /* CellSelectAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				27C0B2A21582CA6100E9443A /* KLAppDelegate.h */,
+				27C0B2A31582CA6100E9443A /* KLAppDelegate.m */,
+				27C0B2A51582CA6100E9443A /* KLViewController.h */,
+				27C0B2A61582CA6100E9443A /* KLViewController.m */,
+				27C0B2A81582CA6100E9443A /* KLViewController.xib */,
+				27C0B29A1582CA6100E9443A /* Supporting Files */,
+			);
+			path = CellSelectAnimation;
+			sourceTree = "<group>";
+		};
+		27C0B29A1582CA6100E9443A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C0B29B1582CA6100E9443A /* CellSelectAnimation-Info.plist */,
+				27C0B29C1582CA6100E9443A /* InfoPlist.strings */,
+				27C0B29F1582CA6100E9443A /* main.m */,
+				27C0B2A11582CA6100E9443A /* CellSelectAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C0B28E1582CA6100E9443A /* CellSelectAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C0B2AD1582CA6100E9443A /* Build configuration list for PBXNativeTarget "CellSelectAnimation" */;
+			buildPhases = (
+				27C0B28B1582CA6100E9443A /* Sources */,
+				27C0B28C1582CA6100E9443A /* Frameworks */,
+				27C0B28D1582CA6100E9443A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellSelectAnimation;
+			productName = CellSelectAnimation;
+			productReference = 27C0B28F1582CA6100E9443A /* CellSelectAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C0B2861582CA6100E9443A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "LeNeau Software";
+			};
+			buildConfigurationList = 27C0B2891582CA6100E9443A /* Build configuration list for PBXProject "CellSelectAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27C0B2841582CA6100E9443A;
+			productRefGroup = 27C0B2901582CA6100E9443A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C0B28E1582CA6100E9443A /* CellSelectAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C0B28D1582CA6100E9443A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C0B29E1582CA6100E9443A /* InfoPlist.strings in Resources */,
+				27C0B2AA1582CA6100E9443A /* KLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C0B28B1582CA6100E9443A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C0B2A01582CA6100E9443A /* main.m in Sources */,
+				27C0B2A41582CA6100E9443A /* KLAppDelegate.m in Sources */,
+				27C0B2A71582CA6100E9443A /* KLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27C0B29C1582CA6100E9443A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C0B29D1582CA6100E9443A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27C0B2A81582CA6100E9443A /* KLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C0B2A91582CA6100E9443A /* en */,
+			);
+			name = KLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C0B2AB1582CA6100E9443A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27C0B2AC1582CA6100E9443A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C0B2AE1582CA6100E9443A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellSelectAnimation/CellSelectAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CellSelectAnimation/CellSelectAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27C0B2AF1582CA6100E9443A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellSelectAnimation/CellSelectAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CellSelectAnimation/CellSelectAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C0B2891582CA6100E9443A /* Build configuration list for PBXProject "CellSelectAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C0B2AB1582CA6100E9443A /* Debug */,
+				27C0B2AC1582CA6100E9443A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C0B2AD1582CA6100E9443A /* Build configuration list for PBXNativeTarget "CellSelectAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C0B2AE1582CA6100E9443A /* Debug */,
+				27C0B2AF1582CA6100E9443A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C0B2861582CA6100E9443A /* Project object */;
+}
