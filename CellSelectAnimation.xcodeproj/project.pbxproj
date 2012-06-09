@@ -14,7 +14,6 @@
 		27C0B2A01582CA6100E9443A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B29F1582CA6100E9443A /* main.m */; };
 		27C0B2A41582CA6100E9443A /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B2A31582CA6100E9443A /* KLAppDelegate.m */; };
 		27C0B2A71582CA6100E9443A /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0B2A61582CA6100E9443A /* KLViewController.m */; };
-		27C0B2AA1582CA6100E9443A /* KLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C0B2A81582CA6100E9443A /* KLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +21,14 @@
 		27C0B2931582CA6100E9443A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27C0B2951582CA6100E9443A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27C0B2971582CA6100E9443A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		27C0B29B1582CA6100E9443A /* CellSelectAnimation-Info.plist */ = {isa = PBXFileReference; path = "CellSelectAnimation-Info.plist"; sourceTree = "<group>"; };
+		27C0B29B1582CA6100E9443A /* CellSelectAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellSelectAnimation-Info.plist"; sourceTree = "<group>"; };
 		27C0B29D1582CA6100E9443A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27C0B29F1582CA6100E9443A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		27C0B2A11582CA6100E9443A /* CellSelectAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "CellSelectAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		27C0B2A21582CA6100E9443A /* KLAppDelegate.h */ = {isa = PBXFileReference; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		27C0B2A11582CA6100E9443A /* CellSelectAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellSelectAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		27C0B2A21582CA6100E9443A /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
 		27C0B2A31582CA6100E9443A /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
-		27C0B2A51582CA6100E9443A /* KLViewController.h */ = {isa = PBXFileReference; path = KLViewController.h; sourceTree = "<group>"; };
+		27C0B2A51582CA6100E9443A /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
 		27C0B2A61582CA6100E9443A /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
-		27C0B2A91582CA6100E9443A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 				27C0B2A31582CA6100E9443A /* KLAppDelegate.m */,
 				27C0B2A51582CA6100E9443A /* KLViewController.h */,
 				27C0B2A61582CA6100E9443A /* KLViewController.m */,
-				27C0B2A81582CA6100E9443A /* KLViewController.xib */,
 				27C0B29A1582CA6100E9443A /* Supporting Files */,
 			);
 			path = CellSelectAnimation;
@@ -151,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C0B29E1582CA6100E9443A /* InfoPlist.strings in Resources */,
-				27C0B2AA1582CA6100E9443A /* KLViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,14 +173,6 @@
 				27C0B29D1582CA6100E9443A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		27C0B2A81582CA6100E9443A /* KLViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27C0B2A91582CA6100E9443A /* en */,
-			);
-			name = KLViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

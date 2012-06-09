@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class KLViewController;
-
 @interface KLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) KLViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
